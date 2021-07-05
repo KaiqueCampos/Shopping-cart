@@ -1,0 +1,37 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    .jumpman {
+        width: 500px;
+
+        & path {
+            fill: transparent;
+
+            stroke-width: 1;
+            stroke: #fff;
+
+            stroke-dasharray: 1500;
+            stroke-dashoffset: 0;
+
+            animation: animate-airjordan 6s linear forwards;
+        }
+    }
+}
+
+@keyframes animate-airjordan {
+    
+    from{
+        stroke-dashoffset: 1500;
+    }
+
+    to{
+        fill: red;
+    }
+}
