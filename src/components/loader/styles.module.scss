@@ -17,10 +17,10 @@
             stroke-width: 1;
             stroke: #fff;
 
-            stroke-dasharray: 1500;
+            stroke-dasharray: 800;
             stroke-dashoffset: 0;
 
-            animation: animate-airjordan 6s linear forwards;
+            animation: animate-airjordan 5s linear forwards;
         }
     }
 }
@@ -28,7 +28,7 @@
 @keyframes animate-airjordan {
     
     from{
-        stroke-dashoffset: 1500;
+        stroke-dashoffset: 800;
     }
 
     to{

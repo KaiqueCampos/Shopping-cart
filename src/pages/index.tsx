@@ -1,12 +1,16 @@
 
-import {Loader} from '../components/loader/index'
-
-import styles from '../styles/home.module.scss'
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
+import { Loader } from '../components/loader/index'
 
 export default function Home() {
+  const router = useRouter()
+
+  useEffect(() => {
+    setTimeout(() => router.push('Products'), 5500)
+  })
+
   return (
-    <div className={styles.container}>
-      <Loader/>
-    </div>
+    <Loader />
   )
 }
