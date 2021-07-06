@@ -1,0 +1,53 @@
+.container {
+    width: 60%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    img {
+        width: 37rem;
+        z-index: 2;
+        margin-bottom: 8rem;
+        margin-left: 4rem;
+        filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5));
+    }
+
+    h1 {
+        position: absolute;
+        letter-spacing: 0.05em;
+        font-size: 12rem;
+
+        &:first-child {
+            color: rgb(255, 255, 255);
+            top: 3rem;
+            left: 6rem;
+
+            z-index: 3;
+        }
+    }
+
+    .titleCustomDesign {
+        background: linear-gradient(90deg, #000000 14.32%, rgba(197, 14, 102, 0.47) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        z-index: 1;
+        top: 20rem;
+        left: 10rem;
+    }
+
+    h3 {
+        z-index: 4;
+        font-family: "Dancing Script", sans-serif;
+        font-size: 3.3rem;
+        position: absolute;
+        bottom: 0rem;
+        right: 0;
+
+        transform: rotate(-4.72deg);
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}

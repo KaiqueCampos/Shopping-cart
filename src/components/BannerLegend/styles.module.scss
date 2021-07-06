@@ -1,0 +1,38 @@
+.container{
+    width: 40%;
+
+    h3{
+        font-size: 1rem;
+        color: #757474;
+        letter-spacing: 0.315em;
+
+    }
+
+    h1{
+        font-size: 3.3rem;
+    }
+
+    p{
+        margin-top: 1rem;
+
+        color: #484B4F;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    button{
+        margin-top: 3rem;
+
+        border: 0;
+        border-radius: 1rem;
+        background: #000;
+        padding: 0.7rem 2.5rem;
+
+        transition: opacity 0.4s;
+        font-weight: 500;
+
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}

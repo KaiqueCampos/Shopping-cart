@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -8,8 +8,21 @@ html {
   font-size: 97.5%;
 }
 
-body, button{
-  background-color: #121212;
-  font: 400 1rem 'Montserrat', sans-serif;
+body{
+  background: #121212;
+}
+
+body,
+button {
+  font: 400 1rem "Montserrat", sans-serif;
   color: #fff;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Anton', sans-serif;
+  color: #000
+}
+
+button {
+  cursor: pointer;
 }
