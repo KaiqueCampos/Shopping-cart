@@ -8,6 +8,9 @@
     align-items: center;
     justify-content: center;
 
+    background: url('/AIR.png');
+    background-size: 100% 100%;
+
     .productsContainer {
         width: 80vw;
         display: grid;
@@ -19,6 +22,7 @@
         div {
             position: relative;
 
+            width: 17rem;
             height: 15rem;
             border-radius: 1rem;
             background: #2c2c2c;
