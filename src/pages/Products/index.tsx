@@ -1,6 +1,6 @@
 import { BannerLegend } from "../../components/BannerLegend"
 import { BannerSneaker } from "../../components/BannerSneaker"
-import { Header } from "../../components/header"
+import { ProductsItems } from "../../components/ProductsItens"
 import styles from './styles.module.scss'
 
 export default function Products() {
@@ -10,6 +10,8 @@ export default function Products() {
                 <BannerLegend/>
                 <BannerSneaker/>
             </div>
+
+            <ProductsItems/>
         </div>
     )
 }
