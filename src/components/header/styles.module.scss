@@ -1,18 +1,38 @@
-.container{
+.container {
     width: 100%;
     position: absolute;
     top: 0;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 1rem;
 
     padding: 1rem 3rem;
-    color: #000;
-    
-    img{
+    color: #fff;
+
+    img {
         width: 3rem;
     }
 
-    
+    p {
+        margin-left: auto;
+        cursor: pointer;
+        transition: color 0.2s;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    .shoppingCart {
+        width: 1.5rem;
+        cursor: pointer;
+        transition: fill 0.2s;
+        fill: white;
+
+        &:hover{
+            fill: red;
+        }
+    }
 }

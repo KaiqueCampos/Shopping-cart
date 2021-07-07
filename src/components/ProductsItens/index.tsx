@@ -1,6 +1,5 @@
-import { useEffect } from 'react';
-import Script from 'next/script'
-import styles from './styles.module.scss'
+import Link from 'next/link'
+import styles from './styles.module.scss';
 
 export function ProductsItems() {
 
@@ -9,12 +8,15 @@ export function ProductsItems() {
         <div className={styles.container}>
 
             <div className={styles.productsContainer}>
-                <div className='products'>
-                    <h1>Off-White Red</h1>
-                    <h3>AIR JORDAN 1 Retrô</h3>
+                <Link href="/Products">
+                    <div className='products'>
+                        <h1>Off-White Red</h1>
+                        <h3>AIR JORDAN 1 Retrô</h3>
 
-                    <img src='./product1.png' alt="Air Jordan 1 retrô | Red off-white" />
-                </div>
+                        <img src='./product1.png' alt="Air Jordan 1 retrô | Red off-white" />
+                    </div>
+                </Link>
+
 
                 <div className='products'>
                     <h1>Off-White Red</h1>
@@ -51,8 +53,6 @@ export function ProductsItems() {
                     <img src='./product6.png' alt="Air Jordan 1 retrô | Red off-white" />
                 </div>
             </div>
-
-            <Script src="https://unpkg.com/scrollreveal" />
         </div>
     )
 }
