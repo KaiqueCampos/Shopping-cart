@@ -1,6 +1,6 @@
 import { Header } from '../../components/Header'
-import { ProductInformations } from '../../components/ProductInformaitons'
 import { SneakerLineColor } from '../../components/SneakerLineColor'
+import { ProductInformations } from '../../components/ProductInformaitons'
 
 import styles from './styles.module.scss'
 import animate from '../../styles/animation.module.scss'
